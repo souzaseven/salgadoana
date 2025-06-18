@@ -104,7 +104,7 @@
       const date = now.toLocaleDateString('pt-BR');
       const time = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
 
-      let message = `*🍴 PEDIDO SALGADOS WALI* 🍴\n\n`;
+      let message = `*🍴 PEDIDO SALGADOS DA ANA* 🍴\n\n`;
       message += `*Cliente:* ${name}\n`;
       message += `*Nº do pedido:* ${orderNumber}\n`;
       message += `*Data:* ${date} às ${time}\n`;
