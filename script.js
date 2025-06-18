@@ -128,7 +128,7 @@
     }
 
     function contactPerson(name, number) {
-      const message = encodeURIComponent(`Olá ${name}, gostaria de saber mais sobre os salgados da Wali!`);
+      const message = encodeURIComponent(`Olá ${name}, gostaria de saber mais sobre os salgados da ANA!`);
       window.open(`https://wa.me/${number}?text=${message}`, '_blank');
     }
 
